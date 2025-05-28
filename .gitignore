@@ -1,0 +1,65 @@
+# CUDA 설치 파일들
+*.run
+cuda-12.4/
+cuda/
+
+# Python 가상환경
+cuda_env/
+venv/
+env/
+.env
+
+# 컴파일된 파일들
+*.o
+*.exe
+*.out
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+
+# CUDA 컴파일된 파일들
+*.ptx
+*.cubin
+*.fatbin
+
+# 실행파일
+test_cuda
+a.out
+
+# IDE 파일들
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS 생성 파일들
+.DS_Store
+Thumbs.db
+
+# 로그 파일들
+*.log
+
+# 임시 파일들
+*.tmp
+*.temp
+
+# 서브모듈 (별도 Git 저장소)
+Learn-CUDA-Programming/
+
+# 빌드 디렉토리
+build/
+bin/
+obj/
+
+# CMake 생성 파일들만 제외 (프로젝트 Makefile은 포함)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# 프로파일링 결과
+*.nvprof
+*.qdrep
+*.qdstrm 
